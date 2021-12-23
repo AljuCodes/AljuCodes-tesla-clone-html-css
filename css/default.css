@@ -1,0 +1,47 @@
+:root {
+    --text-color: #50555e;
+  }
+  a{
+    color:  #50555e;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    margin: 0;
+
+}
+  body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  button {
+    font-family: 'Raleway', sans-serif;
+  }
+  p {
+    margin: 0;
+  }
+  .ml {
+    margin-left: 24px;
+  }
+  .btn {
+    border: unset;
+    background-color: rgba(250, 250, 250, 0.9);
+    padding: 12.8px 8px;
+    border-radius: 80px;
+    font-size: 12.8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    min-width: 240px;
+  }
+  .btn-dark {
+    color: #fff;
+    background-color: rgba(48, 48, 48, 0.9);
+  }
+  .btn-light {
+    background-color: rgba(250, 250, 250, 0.9);
+  }
+  .header__logo {
+    padding-top: 9.6px;
+  }

@@ -1,0 +1,78 @@
+.container {
+  height: 1256 pixels;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.container__section {
+  height: 1256px;
+  color: #fff;
+  scroll-snap-align: start;
+}
+.container__down-arrow {
+  left: 47.5%;
+  top: 72em;
+  position: absolute;
+  animation: scroll-down 1.5s ease infinite;
+}
+
+.container__content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 160px 0 80px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container__content-header h2 {
+  color: #50555e;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+}
+.container__content-header p {
+  color: #50555e;
+  font-size: 14.4px;
+}
+
+.container__section {
+  background-size: cover;
+  background-position: center;
+}
+.container__section:nth-child(1) {
+  background-image: url(https://cvvkshcv.github.io/tesla-home-page/img/section-img/one.jpg);
+}
+.container__section:nth-child(2) {
+  background-image: url(https://cvvkshcv.github.io/tesla-home-page/img/section-img/two.jpg);
+}
+.container__section:nth-child(3) {
+  background-image: url(https://cvvkshcv.github.io/tesla-home-page/img/section-img/four.jpg);
+}
+.container__section:nth-child(4) {
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/thumbnail/tesla/f756f38a-3f8c-42fd-a2ed-55f1b034397b/bvlatuR/std/1540x866/Cybertruck_01?lcid=4dff9d2a-f5b2-42d1-b716-fe6eccb43422&v=25&dpr=425);
+  }
+  .container__section:nth-child(5) {
+    background-image: url(https://cvvkshcv.github.io/tesla-home-page/img/section-img/seven.jpg);
+  }
+
+  .last-section-div{
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 45px;
+  }
+  .last-section-div ul {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 590px;
+  }
+  .last-section-div ul li {
+    margin-right: 23px;
+  }
+  .last-section-div ul li a {
+    color: #a9a9a9;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
